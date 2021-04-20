@@ -1,0 +1,207 @@
+<! DOCTYPE html >
+<html>
+	<head>
+				<meta charset ="UTF -8" />
+		<title> WEB Tech Vegas Nights CYOAG </title>
+	</head>
+	<body>
+		<header> VEGAS NIGHTS CYOAG <hr/> </header>
+		
+		<nav>
+			<a href ="about.html"> About </ a > |
+			<a href ="contact.html"> Contact Us </a > |
+		</nav>
+		
+		<section>
+			<h1> VEGAS NIGHTS </h1>
+					
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+  background-color: #D7BDE2;
+}
+h1 {
+  color: purple;
+  text-align: center;
+  font-size: 80px;
+}
+p {
+  font-family: Arial;
+  font-size: 20px;
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  max-hieght: 40px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: yellow;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/4 etc) */
+.numbertext {
+  color: yellow;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="lvparis.jpg" style="width:100%">
+  <div class="text">Las Vegas Night Life</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="lvsign.jpg" style="width:100%">
+  <div class="text">Famous Las Vegas Sign</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="lvshow.jpg" style="width:100%">
+  <div class="text">Exciting Shows</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="lvcasino.jpg" style="width:100%">
+  <div class="text">Live Casinos</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+			<br>
+			<h2> Game Description </h2> </hgroup>
+			<p> Finally, you were able to travel to Las Vegas for a long overdue adventurous weekend getaway with your pals. Enthusiastic about exploring the city you will have to decide which adventure excites you the most! Filled with nonstop nightlife and numerous activities, which adventure will you explore while visiting the city that never sleeps?</p>
+			<p> WHow about taking your chance at luck by venturing off to the excitement and thrill of casino games? But with a vast variety of casinos located on the Vegas strip, which will you choose? If a game of chance does not excite you… How about a live and mesmerizing Vegas show? Lights, camera, action! Here is where the magic begins! Enjoy the thrill of a variety show or if you are truly daring, a sexy cabaret may be what you are seeking. However, an enjoyable open-top bus night ride or a sightseeing helicopter night flight may just be what you and your pals will enjoy, therefore, an adventurous tour may be the best Vegas adventure for you.</p>
+			<br>
+			<p> No matter what you decide, there is only one thing to remember, what happens in Vegas, stays in Vegas!</p>
+			<br>
+			<br>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>	
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	background-color: purple; 
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+	
+	</style>
+	
+		<img src="VegasSign.jpg" alt="VegasSign" class="center" width="400" height="225"/>
+			<br>
+			<br>
+						
+			<a href ="Selection Page.html"> 
+			<button type="button" onclick="myFunction()">Click Here to Play</button>
+			</a> 
+						
+	</body>
+<html> 
